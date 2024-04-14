@@ -9,6 +9,3 @@ It has four features
 -> Search<br>
 
 Project Video On linkedin: https://www.linkedin.com/posts/aditi-sharma-2b593a279_im-sure-it-wont-forget-your-password-activity-7185300961765023744-NXAq?utm_source=share&utm_medium=member_desktop
-
-Cautions: Not Secure as the passwords are being stored in the local storage.
-
