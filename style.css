@@ -1,0 +1,301 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#upd{
+    background-image: url("assets/editi.png");
+    background-size: cover;
+    width: 29px;
+    height: 29px;
+    margin: 5px;
+}
+
+#boddiv {
+    color: skyblue;
+    text-shadow: 2px 1px 4px skyblue;
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/bg.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    position: absolute;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    transition: 2s;
+    color: skyblue;
+}
+
+#b1 {
+    background-color: transparent;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: medium;
+    box-shadow: 2px 2px 10px skyblue;
+    color: skyblue;
+    margin-left: 33%;
+}
+
+#b1:hover {
+    width: 253px;
+    height: 53px;
+}
+
+#outer {
+    width: 409px;
+    height: 465px;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: -123%;
+    left: 35%;
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 15px 3px rgb(153, 212, 236);
+    border-radius: 20px;
+}
+
+
+#eye {
+    position: absolute;
+    right: 38px;
+    top: 262px;
+}
+
+.closeeye {
+    background-image: url("assets/close.jpeg");
+    width: 28px;
+    height: 26px;
+    background-size: cover;
+    border: none;
+}
+
+#head{
+    font-size: 43px;
+    margin-right: 39px;
+}
+
+.openeye {
+    background-image: url("assets/open.jpeg");
+    width: 24px;
+    height: 22px;
+    background-size: cover;
+    border: none;
+}
+
+#eye2 {
+    position: absolute;
+    right: 38px;
+    top: 347px;
+}
+
+
+#text {
+    margin: 18px;
+    text-shadow: 2px 2px 3px gray;
+}
+
+#closepop {
+    width: 31px;
+    height: 30px;
+    background-image: url("assets/closeimg.jpeg");
+    background-size: 28px 27px;
+    border-radius: 17px;
+    position: absolute;
+    left: 372px;
+    border: none;
+    top: 4px;
+}
+
+#pop {
+    display: flex;
+    flex-flow: column;
+}
+
+#del {
+    background-image: url("assets/del.jpeg");
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 2px;
+}
+
+.data {
+    width: 323px;
+    height: 31px;
+    font-size: medium;
+}
+
+.inner {
+    margin: 7px;
+    margin-left: 20px;
+    height: 71px;
+}
+
+#btn {
+    width: 100px;
+    height: 31px;
+    margin: 16px;
+    margin-left: 133px;
+    background-color: skyblue;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#btn:hover {
+    background-color: rgb(111, 172, 196);
+}
+
+#store {
+    position: absolute;
+    top: 358px;
+    left: 440px;
+    border: none;
+    width: 600px;
+    text-align: center;
+}
+
+tr {
+    height: 33px;
+}
+
+#change{
+    width: 291px;
+    height: 124px;
+    position: absolute;
+    top: -200px;
+    left: 536px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 6px skyblue;
+    padding: 26px;
+    text-align: center;
+}
+.ch{
+    background-color: skyblue;
+    position: relative;
+    top: 63px;
+    width: 52px;
+    height: 33px;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+}
+
+#ch1{
+    width: 53px;
+    margin: 10px;
+}
+
+#cp{
+    margin-left: 102px;
+    margin-bottom: 20px;
+}
+
+#eye3{
+    position: relative;
+    top: -31px;
+    left: 294px;
+}
+
+#eye4{
+    position: relative;
+    top: -31px;
+    left: 294px;
+}
+
+#up{
+    background-color: skyblue;
+    width: 105px;
+    height: 37px;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+    position: relative;
+    top: 6px;
+    left: 126px;
+}
+#ch2{
+    width:138px;
+}
+
+.rede{
+    position: relative;
+    bottom: 29px;
+    color: red;
+}
+
+#newpass{
+    width: 370px;
+    height: 246px;
+    background-color: white;
+    position: absolute;
+    top: -300px;
+    left: 35%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px skyblue;
+}
+
+#seabtn{
+    height:44px;
+    position: absolute;
+    top: 202px;
+    left: 870px;
+    background-image: url("assets/search.png");
+    background-size: contain;
+    width:43px;
+    border: none;
+    transition: 1s;
+}
+#search{
+    position: relative;
+    top: 200px;
+    left: 870px;
+    border: none;
+    width:41px;
+    height: 13px;
+    padding: 16px;
+    color: white;
+    background-color: transparent;
+    transition: 1s;
+
+}
+
+#res{
+    color: skyblue;
+    width: 36%;
+    height: 7%;
+    position: absolute;
+    top: 359px;
+    left: 459px;
+    border: none;
+    text-align: center;
+}
+
+#seaclose{
+    background-image: url("assets/cl.jpeg");
+    width: 40px;
+    background-size: cover;
+    height: 42px;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 68%;
+    top: -9%;
+}
+
+#seabox{
+    position: relative;
+}
+
+

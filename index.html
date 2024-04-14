@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="boddiv">
+        <!-- <button onsubmit=""></button> -->
+        <!-- <div id="demo" style="width:50px;height:30px; position: relative; top:40px; background-color: white;"></div> -->
+        <h1 id="head">I WON'T FORGET PASSWORD</h1>
+        <a onclick="popup('outer')"><button id="b1">New Password</button></a>
+        <table id="store" border="2px solid black">
+        </table>
+    </div>
+        <button onclick="clossea()" id="seaclose"></button>
+        <input id="search" type="text" placeholder="">
+        <button id="seabtn"></button>
+        <table id="res" border="2px solid black">
+        </table>
+
+    <div id="outer">
+        <button onclick="closes('outer')" id="closepop"></button>
+        <h2 id="text">Save Your Pasword</h2>
+        <form id="pop">
+            <div class="inner">
+                Website<br><input class="data" id="site" type="text" autocomplete="off" placeholder="Enter website name"
+                    required>
+                <div id="err1" class="ercls" style="color: red;"></div>
+            </div>
+            <div class="inner">
+                UserName<br><input class="data" id="username" type="text" autocomplete="off"
+                    placeholder="Enter username" required>
+                <div id="err2" class="ercls" style="color: red;"></div>
+            </div>
+            <div class="inner">
+                Password<br><input class="data" id="pw" type="password" autocomplete="off" placeholder="Enter Password"
+                    required>
+                <button id="eye" class="closeeye"></button>
+                <div id="err3" class="ercls" style="color: red;"></div>
+            </div>
+            <div class="inner">
+                Confirm Password<br><input type="password" class="data" autocomplete="off" id="conpassword" type="text"
+                    placeholder="Enter Password Again" required>
+                <button id="eye2" class="closeeye"></button>
+                <div id="err" class="ercls" style="color: red;"></div>
+            </div>
+            <input class="data" id="btn" type="button" value="Save">
+        </form>
+    </div>
+
+    <div id="change">
+        <h2>Entry already exist</h2>
+        <button class="ch" onclick="closes('change')" id="ch1">Ok</button>
+        <button class="ch" id="ch2">Change Password</button>
+    </div>
+
+    <div id="newpass">
+        <h2 id="cp">Change Password</h2>
+        <button onclick="closes('newpass')" id="closepop"></button>
+        <form>
+            <div class="inner">
+                New Password<br><input class="data" autocomplete="off" type="password" id="newpassword">
+                <button id="eye3" class="closeeye"></button>
+                <div id="err6" class="rede"></div>
+            </div>
+            <div class="inner">
+                Confirm Password<br><input class="data" autocomplete="off" type="password" id="connewpass">
+                <button id="eye4" class="closeeye"></button>
+                <div id="err7" class="rede"></div>
+            </div>
+            <button id="up">Update</button>
+        </form>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
