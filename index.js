@@ -114,7 +114,6 @@ function showpassword() {
 
 // Logic to Delete Passwords
 function Del(webname, usename) {
-    alert("Are You Sure? You want to delete!!");
     let data = localStorage.getItem("passwords");
     let arr = JSON.parse(data);
     let Newarr = arr.filter((e) => {
